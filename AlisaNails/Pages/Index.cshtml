@@ -1,0 +1,197 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Алиса — мастер маникюра | Наращивание ногтей";
+    ViewData["Description"] = "Наращивание ногтей, дизайн, маникюр. Начинающий мастер Алиса. Низкие цены, уютная атмосфера. Запись в Telegram и MAX.";
+}
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-grid">
+            <div>
+                <span class="hero-badge">🐾 Ищу моделей</span>
+                <h1>Наращивание ногтей<br>с <em>душой</em> и котом</h1>
+                <p class="hero-sub">
+                    Привет! Я Алиса — начинающий мастер маникюра. Делаю наращивание, дизайн и уход.
+                    Низкие цены, уютная атмосфера, чай с печеньками и любимая музыка.
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://t.me/WellWhy2003" target="_blank" class="btn btn-primary">✈ Написать в Telegram</a>
+                    <a href="#services" class="btn btn-outline">Смотреть прайс</a>
+                </div>
+            </div>
+            <div class="hero-photo">
+                <img src="~/img/work1.jpg" alt="Работа мастера — наращивание ногтей" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="lace-divider"></div>
+
+<section class="about" id="about">
+    <div class="container">
+        <h2 class="section-title">Обо мне</h2>
+        <p class="section-sub">Немного о том, кто будет делать ваши ногти</p>
+
+        <div class="about-grid">
+            <div class="about-photo">
+                <img src="~/img/alisa.jpg" alt="Алиса — мастер маникюра" />
+            </div>
+            <div class="about-text">
+                <p>Мне 18 лет, я студентка-психолог. Маникюр — моя отдушина и дело, которое я хочу развивать.</p>
+                <p>Я самоучка, но с каждым разом совершенствую навыки. Планирую пойти на курсы, когда появится возможность. Пока учусь на моделях — и поэтому цены такие низкие.</p>
+                <p>Работаю на дому: частный дом, Кировский район («молочка»), улица Раздольная. Точный адрес напишу при отклике.</p>
+                <p>У меня дома живёт кот 🐈‍⬛ — если у вас аллергия или страх, предупредите заранее, что-нибудь придумаем.</p>
+                <p class="signature">Буду рада видеть вас!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="gallery-section" id="gallery">
+    <div class="container">
+        <h2 class="section-title">Мои работы</h2>
+        <p class="section-sub">От старых к новым — с каждым разом всё лучше</p>
+
+        <div class="gallery">
+            <a href="~/img/work4.jpg" target="_blank" class="gallery-item">
+                <img src="~/img/work4.jpg" alt="Работа — самая старая" loading="lazy">
+            </a>
+            <a href="~/img/work3.jpg" target="_blank" class="gallery-item">
+                <img src="~/img/work3.jpg" alt="Работа" loading="lazy">
+            </a>
+            <a href="~/img/work2.jpg" target="_blank" class="gallery-item">
+                <img src="~/img/work2.jpg" alt="Работа — самая новая" loading="lazy">
+            </a>
+        </div>
+    </div>
+</section>
+
+<div class="lace-divider"></div>
+
+<section class="services" id="services">
+    <div class="container">
+        <h2 class="section-title">Услуги и цены</h2>
+        <p class="section-sub">Честные цены для моделей — потому что я только набираюсь опыта</p>
+
+        <div class="price-grid">
+            <div class="price-card">
+                <h3>Наращивание</h3>
+                <ul class="price-list">
+                    <li><span>Длина 1–2</span><span class="price">450 ₽</span></li>
+                    <li><span>Длина 3–4</span><span class="price">500 ₽</span></li>
+                    <li><span>Длина 5–6</span><span class="price">600 ₽</span></li>
+                </ul>
+            </div>
+
+            <div class="price-card">
+                <h3>Дизайн</h3>
+                <ul class="price-list">
+                    <li><span>Простой</span><span class="price">от 50 ₽</span></li>
+                    <li><span>Сложный</span><span class="price">до 150 ₽</span></li>
+                </ul>
+            </div>
+
+            <div class="price-card">
+                <h3>Базовый уход</h3>
+                <ul class="price-list">
+                    <li><span>Комбинированный, без покрытия</span><span class="price">200 ₽</span></li>
+                    <li><span>Комбинированный + гель-лак</span><span class="price">350 ₽</span></li>
+                    <li><span>Снятие</span><span class="price">100 ₽</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="price-note">
+            Работаю с любой формой, включая «когти». Наращиваю на нижние формы.
+        </p>
+    </div>
+</section>
+
+<div class="lace-divider"></div>
+
+<section id="steps">
+    <div class="container">
+        <h2 class="section-title">Как записаться</h2>
+        <p class="section-sub">Четыре простых шага — и ваши ногти в надёжных руках</p>
+
+        <div class="steps">
+            <div class="step">
+                <div class="step-num">1</div>
+                <h4>Напишите мне</h4>
+                <p>В Telegram или MAX — обсудим детали</p>
+            </div>
+            <div class="step">
+                <div class="step-num">2</div>
+                <h4>Пришлите референс</h4>
+                <p>Фото ногтей, которые хотите. Скажу, смогу ли повторить</p>
+            </div>
+            <div class="step">
+                <div class="step-num">3</div>
+                <h4>Подберём материалы</h4>
+                <p>Если чего-то не хватает — скину, что есть, выберем вместе</p>
+            </div>
+            <div class="step">
+                <div class="step-num">4</div>
+                <h4>Договоримся о дате</h4>
+                <p>Выделите 5–6 часов — работа с длиной и дизайном не быстрая</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="important">
+    <div class="container">
+        <h2 class="section-title">Важно знать</h2>
+        <p class="section-sub">Честно — чтобы не было сюрпризов</p>
+
+        <ul class="important-list">
+            <li>Беру девушек <strong>от 12 лет</strong>. До 14 — только с разрешения родителей.</li>
+            <li><strong>До 16 лет наращивание не рекомендую</strong> — ногтевая пластина ещё не сформирована до конца, есть риск повредить.</li>
+            <li>Я начинающий мастер — <strong>не обещаю идеального результата</strong>, но обещаю стараться и учиться.</li>
+            <li>Время работы сложно предсказать заранее. <strong>С большой длиной могу работать 5–6 часов</strong> — наберитесь терпения и возьмите запас времени.</li>
+            <li>Инструменты обрабатываю по всем правилам: <strong>аламинол → промывка → крафт-пакет → сухожар</strong>.</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2 class="section-title">Подарки</h2>
+        <p class="section-sub">Спасибо, что помогаете мне расти</p>
+
+        <div class="gifts">
+            <div class="gift-card">
+                <div class="emoji">💌</div>
+                <h4>За отзыв</h4>
+                <p>Скидка <span class="highlight">100 ₽</span> на следующий маникюр</p>
+            </div>
+            <div class="gift-card">
+                <div class="emoji">👯‍♀️</div>
+                <h4>За подругу</h4>
+                <p>Скидка <span class="highlight">100 ₽</span> вам или ей на следующий визит</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="lace-divider"></div>
+
+<section class="contacts" id="contacts">
+    <div class="container">
+        <h2 class="section-title">Записаться</h2>
+        <p class="section-sub">Пишите — отвечу быстро и с радостью</p>
+
+        <div class="contact-buttons">
+            <a href="https://t.me/WellWhy2003" target="_blank" class="btn-tg">✈ Telegram</a>
+            <a href="https://max.ru/u/+79869936136" target="_blank" class="btn-max">💬 MAX</a>
+        </div>
+
+        <div class="contact-info">
+            <p>Telegram: <strong>@@WellWhy2003</strong> · MAX: <strong>+7 986 993 61 36</strong></p>
+            <p>Кировский район · «Молочка» · ул. Раздольная</p>
+            <p>Точный адрес напишу при отклике</p>
+        </div>
+    </div>
+</section>
